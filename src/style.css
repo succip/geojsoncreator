@@ -1,0 +1,16 @@
+@import "https://js.arcgis.com/4.20/@arcgis/core/assets/esri/themes/light/main.css";
+@import "https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css";
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#controlDiv {
+  padding: 1em;
+  background-color: white;
+  border: 3px solid black;
+}
