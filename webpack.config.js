@@ -24,6 +24,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       title: "GeoJSON Creator",
       template: "./public/index.html",
+      favicon: "./public/favicon.ico",
       filename: "./index.html",
     }),
   ],
